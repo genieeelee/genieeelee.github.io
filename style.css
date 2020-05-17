@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container, #resume, #bio, #image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Website Title: Regini Lee */
 h1 {
   font-family: "Jost", sans-serif;
@@ -22,9 +28,6 @@ table#content {
 
 /* Image in About and Contact Page */
 #image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 300px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -32,9 +35,6 @@ table#content {
 
 /* Bio in About Page */
 #bio {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 550px;
   text-align: center;
 }
@@ -58,9 +58,6 @@ td {
 
 /* Resume in About Page */
 #resume {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 150px;
   background-color: #5ca7aa;
   border: #5ca7aa;
@@ -78,9 +75,6 @@ td {
   display: flex;
   flex-wrap: wrap;
   padding-top: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 1050px;
   text-align: center;
 }
