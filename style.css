@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Website Title: Regini Lee */
+h1 {
+    font-family:'Jost', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+/* Page Heading */
+h2#heading {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+/* Website Content */
+table#content {
+    width:70px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+/* Image in About and Contact Page */
+#image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* Bio in About Page */
+#bio {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:550px;
+    text-align: center;
+}
+/* Navigation Bar Table */
+td {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Link Appearance */
+#link {
+    color:black;
+}
+#link:hover {
+    color:#5ca7aa;
+    text-decoration: none;
+}
+/* Resume in About Page */
+#resume {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:150px;
+    background-color:#5ca7aa;
+    border: #5ca7aa;
+}
+/* Copyright Footer */
+#copyright {
+    padding-top:100px;
+    text-align:center;
+    padding-bottom: 50px;
+}
+/* Container in Project Page */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:50px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:1050px;
+    text-align:center;
+}
+/* Column in Project Page */
+.col{
+    padding:20px;
+}
