@@ -36,7 +36,7 @@ table#content {
 /* Bio in About Page */
 #bio {
   width: 550px;
-  text-align: center;
+  text-align: justify;
 }
 
 /* Navigation Bar Table */
