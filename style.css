@@ -79,6 +79,14 @@ td {
   text-align: center;
 }
 
+.website {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  width: 1050px;
+  text-align: center;
+}
+
 /* Column in Project Page */
 .col {
   padding: 20px;
