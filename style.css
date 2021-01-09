@@ -21,7 +21,7 @@ h2#heading {
 
 /* Website Content */
 table#content {
-  width: 70px;
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,8 +42,8 @@ table#content {
 /* Navigation Bar Table */
 td {
   text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Link Appearance */
@@ -61,6 +61,15 @@ td {
   width: 150px;
   background-color: #5ca7aa;
   border: #5ca7aa;
+}
+
+#jncapital_website {
+  width: 300px;
+  background-color: #5ca7aa;
+  border: #5ca7aa;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Copyright Footer */
